@@ -1,0 +1,6 @@
+SET IDENTITY_INSERT dbo.TABEL ON
+
+INSERT INTO dbo.TABEL (TabelID, TabelNama) VALUES (782, 'Edgewood Solutions')
+INSERT INTO dbo.TABEL (TabelID, TabelNama) VALUES (783, 'Microsoft')
+
+SET IDENTITY_INSERT dbo.Client OFF
